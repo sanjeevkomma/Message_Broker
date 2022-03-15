@@ -21,7 +21,7 @@
 | | |
 
 # Terminology
-* Fault tolerance 
+* Fault tolerance = fall back
 * Resilient 
 * Broker = Server 
 * Kafka Node = Kafka Server
