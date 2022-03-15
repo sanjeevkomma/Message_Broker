@@ -3,6 +3,7 @@
 * Kafka is distributed system , which means it can scaleup as needed
 * Latency = The time taken for a packet to be transferred across a network. You can measure this as one-way to its destination or as a round trip
 * Throughput = The quantity of data being sent and received within a unit of time
+* Partition = Kafka topics are devided into partitions, each partition contains records in a fixed order
 
 # ToRead
 * Kafka can process large amount of data in a short amount of time.
