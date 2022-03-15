@@ -22,6 +22,14 @@
 6. Kafka collaborates with Zookeeper for coordination and synchronization with other services
 7. Apache Spark is well supported by Kafka
 
+# Components of Kafka
+1. Topic =  Topic is a category or feed in which records are saved and published
+2. Producer = Producer is a data source for one or more Kafka topics that optimizes, writes, and publishes messages
+3. Consumer = Data is read by consumers by reading messages from topics to which they have subscribed
+4. Broker =  Broker is a server that works as part of a Kafka cluster
+* ![image](https://user-images.githubusercontent.com/7721150/158395377-6b80af4f-5623-4de4-bb5d-bfcbd01d58fd.png)
+
+
 # Traditional methods of message transfer
 1. Message Queuing
 * ![image](https://user-images.githubusercontent.com/7721150/158394305-b5ca6855-9141-417c-9cb0-83ce64c47457.png)
