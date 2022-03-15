@@ -9,6 +9,16 @@
 * Kafka can be used with different programming languages
 * Kafka is not same as RabbitMQ
 * RabbitMQ eliminates messages immediately after the consumer confirms them, whereas Kafka keeps them for a period of time (default is 7 days) after they've been received
+* Kafka is built to be scalable horizontally by adding more nodes
+* RabbitMQ sends messages to consumers and monitors their load. It determines how many messages each consumer should be processing at any one time
+
+# Differences
+| #Kafka | #Others |
+| :---: | :---: | 
+|  Consumers can retrieve messages from Kafka by pulling | RabbitMQ sends messages to consumers and monitors their load. It determines how many messages each consumer should be processing at any one time |
+| | |
+| | |
+| | |
 
 # Terminology
 * Fault tolerance 
