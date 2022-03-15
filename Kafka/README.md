@@ -1,29 +1,57 @@
-# Definition
-* Message Broker =
-
-# List of message broker software
-* Amazon Web Services (AWS) Amazon MQ
-* Amazon Web Services (AWS) Kinesis
-* Apache ActiveMQ
-* Apache Kafka
-* Google Cloud Pub/Sub (Google)
-* HiveMQ HiveMQ MQTT Broker
-* IBM MQ
-* JBoss Messaging (JBoss)
-* Microsoft Azure Service Bus (Microsoft)
-* Microsoft BizTalk Server (Microsoft)
-* Open Message Queue
-* Oracle Message Broker (Oracle Corporation)
-# RabbitMQ (Mozilla Public License, written in Erlang)
-# Definition
-* RabbitMQ is an open source multi-protocol messaging broker
-# To Read
-* Having Rabbit MQ in between micro services will provide Resilience. Even if the distributed service is down , all the micro services still can put the messages in Rabbit MQ and distributed server can take later.
+# Terminology
+* Fault tolerance 
+* Resilient 
+* Broker = Server 
+* Publish = Write 
+* Subscribe = Read 
+* Topic = Logic name / Logical entity which will be sending the data 
+* Message is pushed to Partition 
+* Round Robin Strategy 
+* Topic ---> Broker --> Partition 
+* Throughput 
+* Zookeeper is internal component to manage Brokers 
+* Zookeeper cluster 
+* Broker = Server / Node 
+* Distributed Systems 
+* Redundancy = Replica 
+* Read ( Consumer ) & Write Operation ( Producer ) 
+* Set of brokers form Cluster 
+* Leader Partition & Follower Partitions 
+* Partition is replicated 
+* Produce messages to Topic 
+* Producer & Consumer are independent 
+* Consumer should subscribe to Topic 
+* Producer will send data / message to Broker 
+* Consumer is single threaded 
+* Offset number is different for different partition 
+* Producer 
+* Consumer 
+* Schema 
+* Message 
+* Broker 
+* Partition 
+* Topic 
+* Leader Partition & Follower Partition 
+* Leader Broker 
+* Producer Partition 
+* 3 Acknowledgement Modes 
+* Producer Record 
+* Key 
+* Value 
+* Console Producer 
+* Java Producer 
+* OffSet 
+* Delivery Semantics -- At least once, At most once, Exactly once 
+* Latency 
+* Buffer Size 
+* Message Size 
+* Throwput 
+* Durable on Disk 
+* Data Retention 
+* Data Format 
+* Replica 
+* Message or Data Format ( JSON ) 
 
 # Reference
-* [Rabbit MQ Tutorial](https://www.rabbitmq.com/getstarted.html)
-* [Rabitt MQ Docker Image](https://hub.docker.com/_/rabbitmq)
-
-* Redis An open source, in-memory data structure store, used as a database, cache and message broker.
-* ZeroMQ
-
+* [Apache Kafka Tutorial](https://www.youtube.com/watch?v=hyJZP-rgooc)
+* [Apache Kafka Tutorial For Beginners](https://www.youtube.com/watch?v=U4y2R3v9tlY)
