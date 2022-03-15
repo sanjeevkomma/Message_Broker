@@ -1,6 +1,8 @@
 # Definition
 * Kafka = Kafa is a Streaming Platform
 * Kafka is distributed system , which means it can scaleup as needed
+* Latency = The time taken for a packet to be transferred across a network. You can measure this as one-way to its destination or as a round trip
+* Throughput = The quantity of data being sent and received within a unit of time
 
 # ToRead
 * Kafka can process large amount of data in a short amount of time.
@@ -31,7 +33,7 @@
 * Message is pushed to Partition 
 * Round Robin Strategy 
 * Topic ---> Broker --> Partition 
-* Throughput 
+* Throughput = The quantity of data 
 * Zookeeper is internal component to manage Brokers 
 * Zookeeper cluster 
 * Broker = Server / Node 
@@ -65,7 +67,7 @@
 * Java Producer 
 * OffSet 
 * Delivery Semantics -- At least once, At most once, Exactly once 
-* Latency 
+* Latency = The time taken for a packet to be transferred across a network
 * Buffer Size 
 * Message Size 
 * Throwput 
