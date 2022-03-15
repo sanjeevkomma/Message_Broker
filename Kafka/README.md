@@ -1,7 +1,17 @@
+# Definition
+* Kafka = Kafa is a Streaming Platform
+* Kafka is distributed system , which means it can scaleup as needed
+
+# ToRead
+* Kafka can process large amount of data in a short amount of time.
+* Kafka has low latency, making it possible to process the data in real-time. 
+* Kafka is written in Scala & Java  
+
 # Terminology
 * Fault tolerance 
 * Resilient 
 * Broker = Server 
+* Kafka Node = Kafka Server
 * Publish = Write 
 * Subscribe = Read 
 * Topic = Logic name / Logical entity which will be sending the data 
