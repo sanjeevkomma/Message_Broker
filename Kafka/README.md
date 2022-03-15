@@ -26,7 +26,7 @@
 | #Kafka | #Others |
 | :---: | :---: | 
 |  Consumers can retrieve messages from Kafka by pulling | RabbitMQ sends messages to consumers and monitors their load. It determines how many messages each consumer should be processing at any one time |
-| Kafka keeps them for a period of time (default is 7 days) after they've been received|RabbitMQ eliminates messages immediately after the consumer confirms them |
+| Kafka keeps messages for a period of time (default is 7 days) after they've been received|RabbitMQ eliminates messages immediately after the consumer confirms them |
 | | |
 | | |
 
