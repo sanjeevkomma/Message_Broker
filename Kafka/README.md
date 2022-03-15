@@ -22,6 +22,13 @@
 6. Kafka collaborates with Zookeeper for coordination and synchronization with other services
 7. Apache Spark is well supported by Kafka
 
+# Traditional methods of message transfer
+1. Message Queuing
+* ![image](https://user-images.githubusercontent.com/7721150/158394305-b5ca6855-9141-417c-9cb0-83ce64c47457.png)
+2. Publisher - Subscriber Model
+* ![image](https://user-images.githubusercontent.com/7721150/158394503-f32c19a9-b9a0-4572-845b-ee9ca7af1aaa.png)
+
+
 # Differences
 | #Kafka | #Others |
 | :---: | :---: | 
