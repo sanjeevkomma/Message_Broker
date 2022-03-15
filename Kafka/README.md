@@ -6,6 +6,9 @@
 * Kafka can process large amount of data in a short amount of time.
 * Kafka has low latency, making it possible to process the data in real-time. 
 * Kafka is written in Scala & Java  
+* Kafka can be used with different programming languages
+* Kafka is not same as RabbitMQ
+* RabbitMQ eliminates messages immediately after the consumer confirms them, whereas Kafka keeps them for a period of time (default is 7 days) after they've been received
 
 # Terminology
 * Fault tolerance 
