@@ -12,6 +12,8 @@
 * Kafka is not same as RabbitMQ
 * Kafka is built to be scalable horizontally by adding more nodes
 * Kafka is used for fault-tolerant storage as well as publishing and subscribing to a stream of records
+* Kafka cluster is made up of a number of brokers
+* Multiple brokers work together to build a Kafka cluster, which provides load balancing, reliable redundancy and failover
 
 # Features of Kaka
 1. Kafka is a messaging system built for high throughput and fault tolerance
@@ -28,6 +30,14 @@
 3. Consumer = Data is read by consumers by reading messages from topics to which they have subscribed
 4. Broker =  Broker is a server that works as part of a Kafka cluster
 * ![image](https://user-images.githubusercontent.com/7721150/158395377-6b80af4f-5623-4de4-bb5d-bfcbd01d58fd.png)
+
+# Kafka API Architecture
+1. Producer API
+2. Consumer API
+3. Streams API
+4. Connect API
+* ![image](https://user-images.githubusercontent.com/7721150/158396968-10b54f36-099a-4ab1-b3c7-155dc4e191ee.png)
+
 
 
 # Traditional methods of message transfer
