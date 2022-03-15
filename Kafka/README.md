@@ -14,6 +14,15 @@
 * Kafka is built to be scalable horizontally by adding more nodes
 * Kafka is used for fault-tolerant storage as well as publishing and subscribing to a stream of records
 
+# Features of Kaka
+1. Kafka is a messaging system built for high throughput and fault tolerance
+2. Kafka has a built-in patriation system known as a Topic
+3. Kafka Includes a replication feature as well
+4. Kafka provides a queue that can handle large amounts of data and move messages from one sender to another
+5. Kafka can save the messages to storage and replicate them across the cluster
+6. Kafka collaborates with Zookeeper for coordination and synchronization with other services
+7. Apache Spark is well supported by Kafka
+
 # Differences
 | #Kafka | #Others |
 | :---: | :---: | 
