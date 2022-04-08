@@ -5,6 +5,8 @@
 * Throughput = The quantity of data being sent and received within a unit of time
 * Partition = Kafka topics are devided into partitions, each partition contains records in a fixed order
 
+* https://gitlab.com/classpath2
+
 # ToRead
 * Kafka can process large amount of data in a short amount of time.
 * Kafka has low latency, making it possible to process the data in real-time. 
