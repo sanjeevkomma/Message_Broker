@@ -5,6 +5,7 @@
 * Throughput = The quantity of data being sent and received within a unit of time
 * Partition = Kafka topics are devided into partitions, each partition contains records in a fixed order
 
+# GitLab
 * https://gitlab.com/classpath2
 
 # ToRead
