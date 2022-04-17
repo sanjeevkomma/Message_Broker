@@ -20,6 +20,7 @@
 * Multiple brokers work together to build a Kafka cluster, which provides load balancing, reliable redundancy and failover
 * Kafka maintains a numerical offset for each record in a partition. 
 * Offset is unique id that identifies each record in the partition
+* offset acts as a unique identifier of a record within the partition
 
 # Features of Kaka
 1. Kafka is a messaging system built for high throughput and fault tolerance
@@ -87,8 +88,7 @@
 * Consumer should subscribe to Topic 
 * Producer will send data / message to Broker 
 * Consumer is single threaded 
-* Offset number is different for different partition 
-* Offset is unique Id to 
+* Offset = unique id of the record in the partition
 * Producer 
 * Consumer 
 * Schema 
@@ -104,8 +104,7 @@
 * Key 
 * Value 
 * Console Producer 
-* Java Producer 
-* OffSet 
+* Java Producer  
 * Delivery Semantics -- At least once, At most once, Exactly once 
 * Latency = The time taken for a packet to be transferred across a network
 * Buffer Size 
