@@ -69,7 +69,7 @@
 * Topic = Logic name / Logical entity which will be sending the data 
 * Message is pushed to Partition 
 * Round Robin Strategy 
-* Topic ---> Broker --> Partition 
+* Cluster ---> Broker ( Server ) ----> Topic ---> Partition 
 * Throughput = The quantity of data 
 * Zookeeper is internal component to manage Brokers 
 * Zookeeper cluster 
