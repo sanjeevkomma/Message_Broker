@@ -18,6 +18,8 @@
 * Kafka is used for fault-tolerant storage as well as publishing and subscribing to a stream of records
 * Kafka cluster is made up of a number of brokers
 * Multiple brokers work together to build a Kafka cluster, which provides load balancing, reliable redundancy and failover
+* Kafka maintains a numerical offset for each record in a partition. 
+* Offset is unique id that identifies each record in the partition
 
 # Features of Kaka
 1. Kafka is a messaging system built for high throughput and fault tolerance
@@ -78,7 +80,7 @@
 * Redundancy = Replica 
 * Read ( Consumer ) & Write Operation ( Producer ) 
 * Set of brokers form Cluster 
-* Leader Partition & Follower Partitions 
+* Leader Partition & Follower Partitions are there in each Broker
 * Partition is replicated 
 * Produce messages to Topic 
 * Producer & Consumer are independent 
@@ -86,6 +88,7 @@
 * Producer will send data / message to Broker 
 * Consumer is single threaded 
 * Offset number is different for different partition 
+* Offset is unique Id to 
 * Producer 
 * Consumer 
 * Schema 
