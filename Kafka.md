@@ -22,9 +22,9 @@
 * Offset is unique id that identifies each record in the partition
 * offset acts as a unique identifier of a record within the partition
 
-# Features of Kaka
+# Features of Kafka
 1. Kafka is a messaging system built for high throughput and fault tolerance
-2. Kafka has a built-in patriation system known as a Topic
+2. Kafka has a built-in partition system known as a Topic
 3. Kafka Includes a replication feature as well
 4. Kafka provides a queue that can handle large amounts of data and move messages from one sender to another
 5. Kafka can save the messages to storage and replicate them across the cluster
