@@ -119,3 +119,4 @@
 # Reference
 * [Apache Kafka Tutorial](https://www.youtube.com/watch?v=hyJZP-rgooc)
 * [Apache Kafka Tutorial For Beginners](https://www.youtube.com/watch?v=U4y2R3v9tlY)
+* [Exactly Once Processing in Kafka with Java](https://www.baeldung.com/kafka-exactly-once)
